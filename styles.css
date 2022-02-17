@@ -11,9 +11,26 @@
   display: inline-block;
   font-size: 2rem;
   background-color: bisque;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: black;
 }
 .link:hover {
   background-color: rgb(163, 148, 130);
   transform: rotate(5deg) scale(1.1);
+}
+
+.special {
+  font-size: 4rem;
+  background-color: blue;
+  border-radius: 1rem;
+  color: white;
+  display: inline-block;
+  transition: all 0.7s ease-in-out;
+}
+.special:hover {
+  transition: all 0.7s ease-in-out;
+  background-color: aqua;
+  transform: rotate(730deg);
 }
